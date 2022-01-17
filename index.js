@@ -36,23 +36,23 @@ const interfaceStart = () => {
     ])
     .then(answers => {
       const answer = answers.initiationQuestion;
-      if (answer == 'View Employee') {
+      if (answer == 'View All Employees') {
         viewEmployee();
-      } else if (answer == 'View Role') {
-        viewRole();
-      } else if (answer == 'View Department') {
-        viewDepartment();
-      } else if (answer == 'View Employees by Manager') {
+      } else if (answer == 'View All Employees By Manager') {
         viewEmployeeByManager();
-      } else if (answer == 'Add Employee') {
+      } else if (answer == 'View All Roles') {
+        viewRole();
+      } else if (answer == 'View All Departments') {
+        viewDepartment();
+      } else if (answer == 'Add An Employee') {
         addEmployee();
-      } else if (answer == 'Add Role') {
+      } else if (answer == 'Add A Role') {
         addRole();
-      } else if (answer == 'Add Department') {
+      } else if (answer == 'Add A Department') {
         addDepartment();
-      } else if (answer == 'Update Employee Role') {
+      } else if (answer == 'Update An Employee Role') {
         updateEmployeeRole();
-      } else if (answer == 'Update Employee Manager') {
+      } else if (answer == 'Update An Employee Manager') {
         updateEmployeeManager();
       }
     });
