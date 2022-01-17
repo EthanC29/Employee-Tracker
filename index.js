@@ -22,15 +22,15 @@ const interfaceStart = () => {
         name: 'initiationQuestion',
         message: 'What would you like to do?',
         choices: [
-          'View Employee',
-          'View Role',
-          'View Department',
-          'View Employees by Manager',
-          'Add Employee',
-          'Add Role',
-          'Add Department',
-          'Update Employee Role',
-          'Update Employee Manager'
+          'View All Employees',
+          'View All Employees By Manager',
+          'View All Roles',
+          'View All Departments',
+          'Add An Employee',
+          'Add A Role',
+          'Add A Department',
+          'Update An Employee Role',
+          'Update An Employee Manager'
         ]
       }
     ])
